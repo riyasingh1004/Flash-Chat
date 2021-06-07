@@ -9,7 +9,7 @@ import './Chat.css';
 
 const io = require("socket.io-client");
 
-const ENDPOINT = 'localhost:5000';
+const ENDPOINT = 'https://realtime-flash-chat.herokuapp.com/';
 
 let socket;
 
